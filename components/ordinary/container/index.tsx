@@ -4,7 +4,7 @@ const Container = ({
     children, spaceBetween
 }: {
     children: ReactNode;
-    spaceBetween: boolean
+    spaceBetween?: boolean | any
 }) => {
     return (
         <Styled.ContainerWrap spaceBetween={spaceBetween}>
