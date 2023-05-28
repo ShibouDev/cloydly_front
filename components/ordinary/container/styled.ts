@@ -1,5 +1,9 @@
 import styled from "styled-components";
-export const ContainerWrap = styled.div`
+
+interface Props{
+    spaceBetween: boolean
+}
+export const ContainerWrap = styled.div<Props>`
 width: 100%;
     max-width: 1170px;
     margin-left: auto;
@@ -8,4 +12,5 @@ width: 100%;
     padding-right: 16px;
     display: flex;
     align-items: center;
+    justify-content: ${props => props.spaceBetween && "space-between"};
 `;

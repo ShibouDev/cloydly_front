@@ -1,12 +1,13 @@
 import { ReactNode } from "react";
 import * as Styled from "./styled";
 const Container = ({
-    children,
+    children, spaceBetween
 }: {
     children: ReactNode;
+    spaceBetween: boolean
 }) => {
     return (
-        <Styled.ContainerWrap>
+        <Styled.ContainerWrap spaceBetween={spaceBetween}>
             {children}
         </Styled.ContainerWrap>
     );

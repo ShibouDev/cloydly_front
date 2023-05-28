@@ -6,6 +6,7 @@
   --text-title: 'DM Sans', sans-serif;
   --secondary-color: #F0F0F0;
   --none-active-text: #7C8DB5;
+  --title-color-text: #25396F;
 }
 
 @media (prefers-color-scheme: dark) {

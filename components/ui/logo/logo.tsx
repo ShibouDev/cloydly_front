@@ -1,7 +1,9 @@
 import * as Styled from "./styled";
-const Logo = () => {
+const Logo = ({isHeader}: {
+    isHeader: boolean
+}) => {
     return (
-        <Styled.LogoWrapper>
+        <Styled.LogoWrapper isHeader href="/">
             <Styled.LogoCurcle>C</Styled.LogoCurcle>
             <Styled.LogoTitle>CLOUDLY</Styled.LogoTitle>
         </Styled.LogoWrapper>
