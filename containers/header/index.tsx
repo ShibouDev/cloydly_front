@@ -3,10 +3,10 @@ import * as Styled from "./styled";
 
 //Components
 import Container from "@/components/ordinary/container";
+import Logo from "@/components/simple/logo/logo";
 import Filter from "@/components/smart/filter";
 import Search from "@/components/smart/search";
 import User from "@/components/smart/user";
-import Logo from "@/components/ui/logo/logo";
 const Header = () => {
     return (
         <Styled.Wrapper>

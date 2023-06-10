@@ -1,12 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+@import url(//db.onlinewebfonts.com/c/7615af7a9f681395bf515be718f1bf9c?family=Sofia+Pro);
 :root {
   --primary-color: #51459E;
   --border-circle: 999px;
   --color-white: #fff;
   --text-title: 'DM Sans', sans-serif;
+  --text-secondary-font-family: 'Sofia Pro', sans-serif;
   --secondary-color: #F0F0F0;
   --none-active-text: #7C8DB5;
   --title-color-text: #25396F;
+  --menu-item-disabled-img-container: #ECEFF7;
+  --menu-item-disabled-text: #7987A5;
+  --box-shadow-primary: #51459e20;
 }
 
 @media (prefers-color-scheme: dark) {

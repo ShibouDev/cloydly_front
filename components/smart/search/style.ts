@@ -5,6 +5,7 @@ export const SearchWrapper = styled.div`
     border-radius: 10px;
     padding: 23px 29px;
     display: flex;
+    flex-grow: 1;
     align-items: center;
     margin-right: 17px;
 `;

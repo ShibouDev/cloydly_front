@@ -14,9 +14,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "lib": ["es6"],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
   },
   "include": ["custom-next-env.d.ts", "**/*.ts", "**/*.tsx", "custom.d.ts"],
   "exclude": ["node_modules", "next-env.d.ts"]
